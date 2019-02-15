@@ -1,3 +1,3 @@
 # GenderMagPersonaTool
 
-customize and Print your GenderMag Abi, Tim and Pat Persona.
+Customize and print your GenderMag Abi, Tim and Pat Persona.
