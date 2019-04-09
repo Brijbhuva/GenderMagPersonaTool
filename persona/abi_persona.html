@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-132750618-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-132750618-1');
+    </script>
+
+    <title>GenderMag</title>
+    <link rel="stylesheet" href="../css/styles.css"/>
+    <link rel="stylesheet" href="../css/styles1.css"/>
+    <script type="text/javascript" src="../js/abi_persona.js"></script>
+
+</head>
+
+<body>
+    <div id="title_bar">
+            <div id="logo">
+                <img id="logo_pic" src="../images/rsz_profile_pic.png" alt="The GenderMag Personas"></img>
+            </div>
+            <div id="title_text">The GenderMag Project</div>
+    </div>
+
+    <div id="nav">
+            <ul id="menu-bar">
+               
+                <span id="buttons">
+                    <div class="social_button">
+                        <a class="social_button_link" href="https://www.facebook.com/The-GenderMag-Method-895221843925403/">
+                            <img class="social_img" src="../images/icon-facebook-1.png"></img>
+                        </a>
+                    </div>
+                    <div class="social_button">
+                        <a class="social_button_link" href="https://twitter.com/GenderMag">
+                        <img class="social_img" src="../images/icon-twitter-1.png"></img>
+                        </a>
+                    </div>
+                    <div class="social_button">
+                        <a class="social_button_link" href="mailto:burnett@eecs.oregonstate.edu">
+                        <img class="social_img" src="../images/icon-mail-1.png"></img>
+                        </a>
+                    </div>
+                </span>
+            </ul>
+        </div>
+
+
+<div style="padding-left: 2%;">
+
+        <h1>Customize "Abi (Abigail/Abishek)"</h1>
+
+         <i><b><p style="color: red; ">* Update the blue text as desired. Produces a printout (or save-as pdf) of your customized persona "Abi (Abigail/Abishek)"</p></b></i>
+
+          <div class = "knowledge_block" style="width: 96%;border-color: #4E81E4;">
+        <h3 style="width: 800px;height: 15px;margin-top: 5px;padding-left: 25px;">Preferred Pronoun</h3>
+     
+        <div class="inputbox">
+           <input style="color: #1E57C8; font-size: 15px;" id="Nouneip" value="she" oninput="Noune()"><br>
+           <label><i>Subjective Pronoun<br>e.g.: he,she</i></label>
+        </div>
+
+        <div class="inputbox">
+           <input style="color: #1E57C8; font-size: 15px;" id="Object" value="her" oninput="objpro()"><br>
+           <label><i>Object Pronoun<br>e.g.: him,her</i></label>
+        </div>
+
+        <div class="inputbox">
+           <input style="color: #1E57C8; font-size: 15px;" id="Pos.adj" value="her" oninput="possadj()"><br>
+           <label><i>Possessive Adjective<br>e.g.: his,her</i></label>
+        </div>
+
+        <div class="inputbox">
+           <input style="color: #1E57C8; font-size: 15px;"  id="poss.Noune" value="hers" oninput="posspro()"><br>
+           <label><i>Possessive Pronoun<br>e.g.: his,hers</i></label>
+        </div>
+
+        <div class="inputbox">
+           <input style="color: #1E57C8; font-size: 15px;" id="ref" value="herself" oninput="Reflexive()"><br>
+           <label><i>Reflexive<br>e.g.: himself,herself</i></label>
+        </div>
+
+     </div>   
+
+     <div class = "knowledge_block" style="width: 96%;border-color: #4E81E4;">
+        <div style="float: left;" style="width: 20%;">
+            <ul>
+                <li><input style="color: #1E57C8; font-size: 15px;" type="text" id="year" value="28 years old" oninput="yearinput()">
+                </li>
+                <li><input style="color: #1E57C8; font-size: 15px;" type="text" id="emp" value="Employed as an Accountant" oninput="empinput()">
+                </li>
+                <li><input  style="color: #1E57C8; font-size: 15px;"type="text" id="place" value="Lives in Cardiff, Wales" oninput="placeinput()">
+                </li>
+            </ul>
+       </div>
+       <div style="float: left; width: 75%">
+            <ul>
+                <textarea style=" width: 100%; word-wrap: break-word;height: 50px; color: #1E57C8; font-size: 15px;" id="Para1" oninput="paraone()">Abi has always liked music. When she is on her way to work in the morning, she listens to music that spans a wide variety of styles. But when she arrives at work, she turns it off, and begins her day by</textarea>scanning all <span id="Pos.adjin1">her</span> emails first to get an overall picture before answering any of them. &nbsp;<textarea style="word-wrap: break-word;height: 50px;width: 100%; color: #1E57C8; font-size: 15px;" id="Para2" oninput="paratwo()">(This extra pass takes time but seems worth it.) Some nights she exercises or stretches, and sometimes she likes to play computer puzzle games like Sudoku</textarea>
+             </ul>
+        </div>
+     </div>
+
+     <div class = "knowledge_block" style="width: 96%;border-color: #1E57C8;">
+        <h3 style="width: 800px;height: 15px;margin-top: 5px;padding-left: 25px; ">Background and Skills</h3>
+        <ul>
+            <div style="padding-bottom: 20px; font-size: 15px; width: 96%;">
+            <input style="word-wrap: break-word;height: 20px;width: 85%; color: #1E57C8; font-size: 15px;" id="backparaone" oninput="backparaoneip()" value="Abi works as an accountant. She is comfortable with the technologies she uses regularly, but she just moved to this employer 1 week ago,and">&nbsp;<u>their software systems are new to <span id="obj.pro_inputbox">her</span>.</u>
+            </div>
+
+             <div style="padding-bottom: 20px; font-size: 15px; width: 96%; ">
+              Abi says <span id="Nouneop_inputbox1">she</span>'s a "numbers person", 
+            <input style="word-wrap: break-word;height: 20px;width: 45%; color: #1E57C8; font-size: 15px;" id="backparatwo" oninput="backparatwoip()" value=" but she has never taken any computer programming or IT systems classes.">&nbsp;<span id="Nouneop_inputbox" style="text-transform: capitalize;">she</span>&nbsp;<u>likes Math</u> and knows how to think with numbers.<input style="word-wrap: break-word;height: 20px;width: 60%; color: #1E57C8; font-size: 15px;" id="backparathree" oninput="backparathreeip()" value=" She writes and edits spreadsheet formulas in her work."><br>
+             </div>
+            
+             <div style="font-size: 15px; width: 100%;">
+            <input style="word-wrap: break-word;height: 20px;width: 9%; color: #1E57C8; font-size: 15px;" id="backparafour" oninput="backparafourip()" value="In her free time,">&nbsp;<span id="Nouneopip3">she</span> also <u> enjoys working with numbers and logic.</u>&nbsp;<input style="word-wrap: break-word;height: 20px;width: 58%; color: #1E57C8; font-size: 15px;" id="backparafive" oninput="backparafiveip()" value="She especially likes working out puzzles and puzzle games, either on paper or on the computer.">
+             </div>
+        </ul>
+     </div>
+
+    <br>
+
+    <div id="printbody">
+         <h1 style="margin-top: 5px;margin-bottom: 5px; color: #ff0000;">Abi (Abigail/Abishek) </h1>
+     <div>
+        <img style="width: 230px" class = "persona_pic" src = "../images/multiAbby-2017-0911.png" alt = "Abi Jones"/>
+        <div style="float: left; word-wrap: break-word">
+            <ul style="width: 200px;margin-bottom: 0px;margin-top: 0px;">
+                <li ><span id="yearoutput" style="color: #1E57C8">28 Years Old</span></li>
+                <li ><span id="empoutput" style="color: #1E57C8">Employed as an Accountant</span></li>
+                <li ><span id="placeoutput" style="color: #1E57C8">Lives in Cardiff, Wales</span></li>
+            </ul>
+        </div>
+        <div>   
+            <ul style="width: 775px;padding-left: 475px; margin-top: 5px;margin-bottom: 0px;">
+                <p id="para1output" style="margin-bottom: 0px;margin-top: 0px; display: inline; color: #1E57C8;">Abi has always liked music. When she is on her way to work in the morning, she listens to music that spans a wide variety of styles. But when she arrives at work, she turns it off, and begins her day by </p><i> scanning all <span id="Pos.adjin2">her</span> emails first to get an overall picture before answering any of them.</i><p id="para2output" style="margin-bottom: 0px;margin-top: 0px;display: inline; color: #1E57C8;"> (This extra pass takes time but seems worth it.) Some nights she exercises or stretches, and sometimes she likes to play computer puzzle games like Sudoku</p>
+            </ul>
+        </div>
+     </div>
+
+     <div class = "knowledge_block" style="width: 1000px">
+        <h3 style="width: 800px;height: 15px;margin-top: 5px;padding-left: 25px; margin-bottom: 12px;">Background and Skills</h3>
+        <ul style="margin-bottom: 5px;margin-top: 5px;">
+            <p id="backparaoneop" style="margin-top: 5px;margin-bottom: 15px; display: inline; color: #1E57C8;">Abi works as an accountant. She is comfortable with the technologies she uses regularly,but she just moved to this employer 1 week ago,and </p><span style="color: red"><u>their software systems are new to <span id="obj.pro_opbox">her</span>.</u></span><br />
+            <p style="margin-top: 0px;margin-bottom: 0px; height: 10px;">&nbsp;</p>
+            <p id="backparatwoop" style="margin-top: 5px;margin-bottom: 5px; display: inline; color: #1E57C8;">Abi says <span id="Nouneop_inputbox2">she</span>'s a <span style="color: black;">"numbers person"</span>, but she has never taken any computer programming or IT systems classes.</p> <span id="Nouneop_inputbox3" style="text-transform: capitalize;">she</span>&nbsp;<span style="color: red;"><u>likes Math</u></span> and knows how to think with numbers.<p id="backparathreeop" style="display: inline; color: #1E57C8;"> She writes and edits spreadsheet formulas in her work.</p><br />
+            <p style="margin-top: 0px;margin-bottom: 0px; height: 10px;">&nbsp;</p>
+            <p id="backparafourop" style="margin-top: 5px;margin-bottom: 1px; display: inline; color: #1E57C8;">In her free time, </p> <span id="Nouneop_inputbox4">she</span> also <span style="color: red"><u>enjoys working with numbers and logic.</u>&nbsp;</span><p id="backparafiveop" style="display: inline; color: #1E57C8;">she especially likes working out puzzles and puzzle games, either on paper or on the computer.</p><br />
+        </ul>
+     </div>
+
+     <div class = "motivation_block" style="width: 1250px">
+        <h3 style="width: 800px;height: 15px;margin-top: 5px;padding-left: 25px; margin-bottom: 12px;">Motivations and Attitudes</h3>
+
+        <ul style="width: 310px; float: left; margin-top: 0px;margin-bottom: 0px; margin-bottom: 6px" >
+            <li><i><b>Motivations</b></i>: Abi uses technologies <span style="color: red"><u>to accomplish <span id="Pos.adj1">her</span> tasks.</u></span>&nbsp;<span id="Nouneopmo" style="text-transform: capitalize;">she</span> learns new technologies if and when <span id="Nouneopmo2"> she</span> needs to, but prefers to use methods <span id="Nouneopmo3">she</span> is <span style="color: red"><u>already familiar and comfortable with, to keep <span id="Pos.adj2">her</span> focus</u></span> on the tasks <span id="Nouneopmo4">she</span> cares about.</li>
+        </ul>
+
+        <ul style="width: 340px; float: left; margin-top: 0px;margin-bottom: 0px; margin-bottom: 6px" >
+            <li><i><b>Computer Self-Efficacy</i></b>: Abi has <span style="color: red"><u>lower self confidence than <span id="Pos.adj3">her</span> peers about doing unfamiliar computing tasks.</u></span> If problems arise with <span id="Pos.adj4">her</span> technology, <span id="Nouneopcs">she</span> often <span style="color: red"><u>blames <span id="Reflexive">herself</span> for these problems.</u></span> This affects whether and how <span id="Nouneopcs1">she</span> will persevere with a task if technology problems have arisen.</li>
+        </ul>
+
+        <ul style="width: 450px; float: left; margin-top: 0px;margin-bottom: 0px; margin-bottom: 6px" >
+            <li><b><i>Attitude toward Risk</i></b>: Abi's life is a little complicated and <span id="Nouneopar">she</span> <span style="color: red"><u>rarely has spare time.</u></span> So <span id="Nouneopar1">she</span> is <span style="color: red"><u>risk averse about using unfamiliar technologies that might need <span id="obj.pro">her</span> to spend extra time</u></span> on them, even if the new features might be relevant. <span id="Nouneopar2" style="text-transform: capitalize;">she</span> instead performs tasks using familiar features, because they're more predictable about what <span id="Nouneopar3">she</span> will get from them and how much time they will take.</li>
+        </ul>
+
+     </div>
+    
+     <div class = "attitude_block" style="width: 1250px">
+        <h3 style="width: 800px;height: 15px;margin-top: 5px;padding-left: 25px; margin-bottom: 12px;">Attitude to Technology</h3>
+        
+        <ul style="width: 580px; float: left; margin-top: 0px;margin-bottom: 0px; margin-bottom: 6px" >
+        <li><i><b>Information Processing Style</b></i>: Abi tends towards a comprehensive information processing style when <span id="Nouneopip">she</span> needs to gather more information. So, instead of acting upon the first option that seems promising, <span id="Nouneopip1">she</span> <span style="color: red"><u>gathers information comprehensively to try to form a complete understanding of the problem before trying to solve it.</u></span> Thus, <span id="Pos.adj5">her</span> style is "burst-y"; first <span id="Nouneopip2">she</span> reads a lot, then <span id="Nouneopip4">she</span> acts on it in a batch of activity.</li>
+        </ul>
+                    
+        <ul style="width: 570px; float: left; margin-top: 0px;margin-bottom: 0px; margin-bottom: 6px"  >    
+            <li><i><b>Learning: by Process vs. by Tinkering </b></i>: When learning new technology, Abi leans toward <span style="color: red"><u>process-oriented learning,</u></span> e.g., tutorials, step-by-step processes, wizards, online how-to videos, etc. <span style="color: red"><u><span style="text-transform: capitalize;" id="Nouneoppt">she</span> doesn't particularly like learning by tinkering with software </u></span>(i.e., just trying out new features or commands to see what they do), but when <span id="Nouneoppt1">she</span> does tinker, it has positive effects on <span id="Pos.adj6">her</span> understanding of the software.</li>
+        </ul>
+     </div> 
+     <div style="padding-left: 30px;"><small><sup>1</sup>Abi represents users with motivations/attitudes and information/learning styles similar to hers. For data on men and women similar to and different from Abi, see<br>
+        <a href="http://gendermag.org/Foundations.html" target="_blank">http://gendermag.org/Foundations.html</a>
+        </small>
+     </div>   
+
+</div>
+<hr>
+</br>
+         <i><b><p style="color: red;margin-top: 0px;margin-bottom: 0px; ">* For best results print in "Landscape" Layout</p></b></i>
+    <center><button type="button" style="height: 50px; color: #000000; border-color: #4E81E4;  " onclick="printDiv('printbody')">Print Abi persona</button></center>
+
+</div>
+  
+</body>
+
+</html>

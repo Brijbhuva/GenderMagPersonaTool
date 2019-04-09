@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>GenderMag</title>
+    <link rel="stylesheet" href="../css/styles.css"/>
+    <link rel="stylesheet" href="../css/styles1.css"/>
+    <script type="text/javascript" src="../js/tim_persona.js"></script>
+
+</head>
+
+<body>
+    <div id="title_bar">
+            <div id="logo">
+                <img id="logo_pic" src="../images/rsz_profile_pic.png" alt="The GenderMag Personas"></img>
+            </div>
+            <div id="title_text">The GenderMag Project</div>
+    </div>
+
+    <div id="nav">
+            <ul id="menu-bar">
+               
+                <span id="buttons">
+                    <div class="social_button">
+                        <a class="social_button_link" href="https://www.facebook.com/The-GenderMag-Method-895221843925403/">
+                            <img class="social_img" src="../images/icon-facebook-1.png"></img>
+                        </a>
+                    </div>
+                    <div class="social_button">
+                        <a class="social_button_link" href="https://twitter.com/GenderMag">
+                        <img class="social_img" src="../images/icon-twitter-1.png"></img>
+                        </a>
+                    </div>
+                    <div class="social_button">
+                        <a class="social_button_link" href="mailto:burnett@eecs.oregonstate.edu">
+                        <img class="social_img" src="../images/icon-mail-1.png"></img>
+                        </a>
+                    </div>
+                </span>
+            </ul>
+        </div>
+
+<div style="padding-left: 2%;">
+
+        <h1>Customize "Tim (Timothy/Timara)"</h1>
+
+         <i><b><p style="color: red; ">* Update the blue text as desired. Produces a printout (or save-as pdf) of your customized persona "Tim (Timothy/Timara)"</p></b></i>
+
+          <div class = "knowledge_block" style="width: 96%;border-color: #4E81E4;">
+        <h3 style="width: 800px;height: 15px;margin-top: 5px;padding-left: 25px;">Preferred Pronoun</h3>
+     
+        <div class="inputbox">
+           <input style="color: #1E57C8; font-size: 15px;" id="Nouneip" value="he" oninput="Noune()"><br>
+           <label><i>Subjective Pronoun<br>e.g.: he,she</i></label>
+        </div>
+
+        <div class="inputbox">
+           <input style="color: #1E57C8; font-size: 15px;" id="Object" value="him" oninput="objpro()"><br>
+           <label><i>Object Pronoun<br>e.g.: him,her</i></label>
+        </div>
+
+        <div class="inputbox">
+           <input style="color: #1E57C8; font-size: 15px;" id="Pos.adj" value="his" oninput="possadj()"><br>
+           <label><i>Possessive Adjective<br>e.g.: his,her</i></label>
+        </div>
+
+        <div class="inputbox">
+           <input style="color: #1E57C8; font-size: 15px;"  id="poss.Noune" value="his" oninput="posspro()"><br>
+           <label><i>Possessive Pronoun<br>e.g.: his,hers</i></label>
+        </div>
+
+        <div class="inputbox">
+           <input style="color: #1E57C8; font-size: 15px;" id="ref" value="himself" oninput="Reflexive()"><br>
+           <label><i>Reflexive<br>e.g.: himself,herself</i></label>
+        </div>
+
+     </div>   
+
+     <div class = "knowledge_block" style="width: 96%;border-color: #4E81E4;">
+        <div style="float: left;" style="width: 20%;">
+            <ul>
+                <li><input style="color: #1E57C8; font-size: 15px;" type="text" id="year" value="28 years old" oninput="yearinput()">
+                </li>
+                <li><input style="color: #1E57C8; font-size: 15px;" type="text" id="emp" value="Employed as an Accountant" oninput="empinput()">
+                </li>
+                <li><input  style="color: #1E57C8; font-size: 15px;"type="text" id="place" value="Lives in Cardiff, Wales" oninput="placeinput()">
+                </li>
+            </ul>
+       </div>
+       <div style="float: left; width: 75%">
+            <ul>
+                <textarea style=" width: 100%; word-wrap: break-word;height: 50px; color: #1E57C8; font-size: 15px;" id="Para1" oninput="paraone()"> Tim loves public transportation. He knows several routes to get there from home and he's always exploring ways to optimize his trips into the office. </textarea>Work starts with email, Which <span id="Nouneopmo">he</span> answers one at a time, as soon as <span id="Nouneopmo2">he</span> reads them.  &nbsp;<textarea style="word-wrap: break-word;height: 50px;width: 100%; color: #1E57C8; font-size: 15px;" id="Para2" oninput="paratwo()">(Sometimes this backfires, if there is a second related message he hasn't read yet, but he doesn't mind sending a follow-up email.) Some nights he plays computer games with his online friends.</textarea>
+             </ul>
+        </div>
+     </div>
+
+     <div class = "knowledge_block" style="width: 96%;border-color: #1E57C8;">
+        <h3 style="width: 800px;height: 15px;margin-top: 5px;padding-left: 25px; ">Background and Skills</h3>
+        <ul>
+            <div style="padding-bottom: 20px; font-size: 15px; width: 96%;">
+            <input style="word-wrap: break-word;height: 20px;width: 45%; color: #1E57C8; font-size: 15px;" id="backparaone" oninput="backparaoneip()" value="Tim works as an accountant. He just moved to this employer 1 week ago,and">&nbsp;<u>their software systems are new to <span id="objpro">him</span>.</u><input style="word-wrap: break-word;height: 20px;width: 100%; color: #1E57C8; font-size: 15px;" id="backparaonetwo" oninput="backparaonetwoip()" value=" For Tim, technology is a source of fun, and he is always on the lookout for new computer software. He likes to make sure he has the latest version of all the softwarewith all the new features.">
+            </div>
+
+             <div style="padding-bottom: 20px; font-size: 15px; width: 96%; ">
+              Tim says <span id="Nouneopmo3">he</span>'s a "numbers person", 
+            <input style="word-wrap: break-word;height: 20px;width: 37%; color: #1E57C8; font-size: 15px;" id="backparatwo" oninput="backparatwoip()" value=" but he has not taken any computer programming or IT classes.">&nbsp;Tim&nbsp;<u>likes Math</u> and knows how to think with numbers.<input style="word-wrap: break-word;height: 20px;width: 35%; color: #1E57C8; font-size: 15px;" id="backparathree" oninput="backparathreeip()" value=" He writes and edits spreadsheet formulas for her work."><br>
+             </div>
+            
+             <div style="font-size: 15px; width: 100%;">
+
+            <input style="word-wrap: break-word;height: 20px;width: 42%; color: #1E57C8; font-size: 15px;" id="backparafour" oninput="backparafourip()" value="He plays the latest video games, has the newest smart phone and hybrid car."><input style="word-wrap: break-word;height: 20px;width: 73%; color: #1E57C8; font-size: 15px;" id="backparafourtwo" oninput="backparafourtwoip()" value="He downloads and installs the latest software, and experiments with its settings. He is comfortable and confident with technology and">&nbsp;<span id="Nouneopmo4">he</span><u> enjoys learning about it and using new technologies.</u>&nbsp;
+             </div>
+        </ul>
+     </div>
+
+    <br>
+
+    <div id="printbody">
+         <h1 style="margin-top: 5px;margin-bottom: 5px; color: #ff0000;">Tim (Timothy/Timara)</h1>
+     <div>
+        <img style="width: 230px" class = "persona_pic" src = "../images/multiTim-2017-0911.png" alt = "Tim Hopkins"/>
+        
+        <div style="float: left; word-wrap: break-word">
+            <ul style="width: 200px;margin-bottom: 0px;margin-top: 0px;">
+                <li ><span id="yearoutput" style="color: #1E57C8">28 Years Old</span></li>
+                <li ><span id="empoutput" style="color: #1E57C8">Employed as an Accountant</span></li>
+                <li ><span id="placeoutput" style="color: #1E57C8">Lives in Cardiff, Wales</span></li>
+            </ul>
+        </div>
+        <div>             <ul style="width: 775px;padding-left: 475px; margin-top: 5px;margin-bottom: 0px;">
+                <p id="para1output" style="margin-bottom: 0px;margin-top: 0px; display: inline; color: #1E57C8;">Tim loves public transportation. He knows several routes to get there from home and he's always exploring ways to optimize his trips into the office. </p><i> Work starts with email, Which <span id="Nouneopmo5">he</span> answers one at a time, as soon as <span id="Nouneopmo6">he</span> reads them.  &nbsp;</i><p id="para2output" style="margin-bottom: 0px;margin-top: 0px;display: inline; color: #1E57C8;"> (Sometimes this backfires, if there is a second related message he hasn't read yet, but he doesn't mind sending a follow-up email.) Some nights he plays computer games with his online friends.</p>
+            </ul>
+        </div>
+     </div>
+
+     <div class = "knowledge_block" style="width: 1000px">
+        <h3 style="width: 800px;height: 15px;margin-top: 5px;padding-left: 25px; margin-bottom: 12px;">Background and Skills</h3>
+        <ul style="margin-bottom: 5px;margin-top: 5px;">
+            <p id="backparaoneop" style="margin-top: 5px;margin-bottom: 15px; display: inline; color: #1E57C8;">Tim works as an accountant. He just moved to this employer 1 week ago,and </p><span style="color: red"><u>their software systems are new to <span id="objpro2">him</span>.</u></span><br /><p id="backparaonetwoop" style="margin-top: 5px;margin-bottom: 15px; display: inline; color: #1E57C8;">For Tim, technology is a source of fun, and he is always on the lookout for new computer software. He likes to make sure he has the latest version of all the software with all the new features.</p>
+
+            <p style="margin-top: 0px;margin-bottom: 0px; height: 10px;">&nbsp;</p>Tim says <span id="Nouneopmo7">he</span>'s a <span style="color: black;">"numbers person"</span>
+            <p id="backparatwoop" style="margin-top: 5px;margin-bottom: 5px; display: inline; color: #1E57C8;">, but he has not taken any computer programming or IT classes.</p> Tim &nbsp;<span style="color: red;"><u>likes Math</u></span> and knows how to think in terms of numbers.<p id="backparathreeop" style="display: inline; color: #1E57C8;"> He writes and edits spreadsheet formulas for his work.</p><br />
+            <p style="margin-top: 0px;margin-bottom: 0px; height: 10px;">&nbsp;</p>
+            <p id="backparafourop" style="margin-top: 5px;margin-bottom: 1px; display: inline; color: #1E57C8;">He plays the latest video games, has the newest smart phone and hybrid car. </p> <p id="backparafourtwoop" style="margin-top: 5px;margin-bottom: 1px; display: inline; color: #1E57C8;">He downloads and installs the latest software, and experiments with its settings. He is comfortable and confident with technology and </p> <span id="Nouneopmo8">he</span> <span style="color: red"><u>enjoys learning about it and using new technologies.</u>&nbsp;</span><p id="backparafiveop" style="display: inline; color: #1E57C8;"></p><br />
+        </ul>
+     </div>
+
+     <div class = "motivation_block" style="width: 1250px">
+        <h3 style="width: 800px;height: 15px;margin-top: 5px;padding-left: 25px; margin-bottom: 12px;">Motivations and Attitudes</h3>
+
+        <ul style="width: 390px; float: left; margin-top: 0px;margin-bottom: 0px; margin-bottom: 6px" >
+            <li><i><b>Motivations</b></i>: Tim <span style="color: red"><u>likes learning all the available functionality on all of <span id="Posadj1">his</span>&nbsp;devices</u></span>&nbsp; and computer systerms <span id="Nouneopmo9">he</span> uses, even when it may not be necessary to help <span id="objpro3">him</span> achieve <span id="Posadj2">his</span> tasks. <span id="Nouneopmo10">he</span> sometimes finds <span id="Reflexive">himself</span> exploring functions of one of <span id="Posadj3">his</span> gadgets for so long that <span id="Nouneopmo11">he</span> loses sight of what <span id="Nouneopmo12">he</span> wanted to do with it to begin with.</li>
+        </ul>
+
+        <ul style="width: 350px; float: left; margin-top: 0px;margin-bottom: 0px; margin-bottom: 6px" >
+            <li><i><b>Computer Self-Efficacy</i></b>: Tim has <span style="color: red"><u>high confidence in <span id="Posadj4">his</span> abilities with technology,</u></span> and thinks <span id="Nouneopmo13">he</span>'s better than the average person at learning about new features.<span style="color: red"><u>If <span id="Nouneopmo14">he</span> can't fix the problem, <span id="Nouneopmo15">he</span> blames it on the software vendor </u></span> it's not <span id="Posadj5">his</span> fault if <span id="Nouneopmo16">he</span> can't get it to work.</li>
+        </ul>
+
+        <ul style="width: 350px; float: left; margin-top: 0px;margin-bottom: 0px; margin-bottom: 6px" >
+            <li><b><i>Attitude toward Risk</i></b>: Tim <span style="color: red"><u>doesn't mind talking risks using features of technology.</u></span> that haven't been proven to work. When <span id="Nouneopmo17">he</span> is presented with challenges because <span id="Nouneopmo18">he</span> has tried a new way that doesn't work, it doesn't changes <span id="Posadj6">his</span> attitudes toward technology.</li>
+        </ul>
+
+     </div>
+    
+     <div class = "attitude_block" style="width: 1250px">
+        <h3 style="width: 800px;height: 15px;margin-top: 5px;padding-left: 25px; margin-bottom: 12px;">Attitude to Technology</h3>
+        
+        <ul style="width: 530px; float: left; margin-top: 0px;margin-bottom: 0px; margin-bottom: 6px" >
+        <li><i><b>Information Processing Style</b></i>:  Tim leans towards a selective information processing style or "depth first" approach. That is, <span id="Nouneopmo19">he</span> usually <span style="color: red"><u>delves into the first promising option, pursues it, and if it doesn't work out <span id="Nouneopmo20">he</span> backs out&nbsp;</u></span>and gathers a bit more information until <span id="Nouneopmo21">he</span> sees <span style="color: red"><u>another option to try. </u></span>Thus, <span id="Posadj7">his</span> style is very incremental.</li>
+        </ul>
+
+        <ul style="width: 600px; float: left; margin-top: 0px;margin-bottom: 0px; margin-bottom: 6px"  >    
+            <li><i><b>Learning: by Process vs. by Tinkering </b></i>: Whenever Tim uses new technology, <span id="Nouneopmo22">he</span> tries to construct <span id="Posadj8">his</span> own understanding of how the software works internally. <span id="Nouneopmo23" style="text-transform: capitalize;">He</span> <span style="color: red"><u>likes tinkering and exploring</u></span> the menu items and functions of the software in order to build that understanding. Sometimes <span id="Nouneopmo24">he</span> plays with features too much, losing focus on what <span id="Nouneopmo25">he</span> set out to do originally, but this helps <span id="objpro4">him</span> gain better understanding of the software.</li>
+        </ul>
+     </div> 
+     <div style="padding-left: 30px;"><small><sup>1</sup>Tim represents users with motivations/attitudes and information/learning styles similar to <span id="pospro1">his</span>. For data on men and women similar to and different from Tim, see<br>
+        <a href="http://gendermag.org/Foundations.html" target="_blank">http://gendermag.org/Foundations.html</a>
+        </small>
+     </div>   
+
+</div>
+<hr>
+</br>
+         <i><b><p style="color: red;margin-top: 0px;margin-bottom: 0px; ">* For best results print in "Landscape" Layout</p></b></i>
+    <center><button type="button" style="height: 50px; color: #000000; border-color: #4E81E4;  " onclick="printDiv('printbody')">Print Tim persona</button></center>
+
+</div>
+  
+</body>
+
+</html>

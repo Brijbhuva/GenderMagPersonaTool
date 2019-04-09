@@ -1,0 +1,149 @@
+/*  Colors:
+	Blue: #1e57c8
+	Orange: #ed7d31
+*/
+
+body {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    padding:5px;
+}
+
+b {
+	font-weight:bolder;
+}
+
+
+/*Here begins paste in code for menu bar
+  Note: this needs to be above the other styles so that the other styles overwrite some
+  weird styling that happens in this code.*/
+#menu-bar {
+  width: 98%;
+  margin: 0px 0px 0px 0px;
+  padding: 6px 6px 6px 6px;
+  height: 40px;
+  line-height: 100%;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  background: #1E57C8;
+}
+#menu-bar li {
+  margin: 6px 0px 6px 0px;
+  padding: 0px 6px 0px 6px;
+  float: left;
+  list-style: none;
+}
+#menu-bar li a {
+  font-size: 14px;
+  color: #FFFFFF;
+  text-decoration: none;
+  display: block;
+  padding: 6px 10px 6px 10px;
+  margin: 0;
+  margin-bottom: 6px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+}
+#menu-bar li ul li a {
+  margin: 0;
+}
+#menu-bar li:hover a {
+  background: #ed7d31;
+  color: #FFFFFF;
+}
+
+#menu-bar:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+#menu-bar {
+  display: inline-block;
+  white-space:nowrap;         /*Keeps the element from wrapping on zoom-in*/
+}
+  html[xmlns] #menu-bar {
+  display: block;
+}
+* html #menu-bar {
+  height: 1%;
+}
+
+/*Here ends paste in code for menu bar*/
+
+
+
+
+#title_bar {
+	height:200px;
+	width:100%;
+}
+
+#title_text {
+	font-size:4rem;
+    position:relative;
+    left:10px;
+    top:130px;
+    white-space:nowrap;         /*Keeps the element from wrapping on zoom-in*/
+}
+
+#update {
+    width:75%;
+    border:3px solid #ed7d31;
+    border-radius:35px;
+}
+
+.body_text {
+	margin:10px;
+	padding:20px;
+}
+
+#logo {
+	margin-bottom: 10px;
+    float:left;
+}
+
+#logo_pic {
+	height: 200px;
+	width: 200px;
+}
+
+#buttons {
+    float:right;
+    width:150px;
+}
+
+.social_button {
+	width:40px;
+	margin:0px;
+	height:40px;
+    display:inline-block;
+    padding:0px;
+}
+
+.social_button_link {
+    margin:2px;
+    height:40px;
+    width:40px;
+    padding:0px 0px 0px 0px;
+}
+
+.social_img {
+	border:3px solid transparent;
+    display:inline-block;
+    margin:0px;
+    padding:0px;
+}
+
+.social_img:hover {
+	border:3px solid #ed7d31; /*Update the transparent border width on social_img if you update this width */
+	border-radius:35px;
+}
+
+
+
+
+
